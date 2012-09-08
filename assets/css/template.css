@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+/*CONFIGURAÇÕES GERAIS*/
+body{
+	background-color:#E6F8FF;	
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 auto;
+	position: relative;
+	
+}
+#box{
+	
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	clear:both;
+}
+/*CABEÇALHO*/
+#header{
+	background: url(../Images/background_menu.png) repeat-x scroll center top;
+	height: 109px;		
+}
+#header_center{
+	margin: 0 auto;
+    width: 960px;
+    min-height: 92px;	
+}
+/*LOGOMARCA*/
+#logo{
+    display: block;
+    float: left;
+    margin-top: 4px;	
+}
+#descricao{
+	width: 200px;
+	height: 15px;
+}
+/*MENU CABEÇALHO*/
+#menu_header{    
+    margin-left: 200px;	
+}
+
+#menu_header ul{
+    float:left;
+	margin-top: 30px;
+	
+}
+#menu_header li{
+	background: url(../Images/background_botao_menu.png) no-repeat left;
+    float: left;
+    height: 40px;
+	width: 145px;    
+	font-size: 25px;
+	margin-left: 7px;	
+}
+#menu_header a{
+	color: #fff;
+    display: block;
+	margin-top: 6px;	
+}
+#menu_header a:hover{
+	background:url(../Images/background_botao_menu_hover.png) no-repeat;
+}
+/*ABAIXO DO CABEÇALHO */
+#under_header{
+	margin: 0 auto;
+    width: 960px;
+}
+#under_header #nuvem1{
+	background:url(../Images/nuvem.png) no-repeat;
+	width: 327px;
+	height: 127px;
+	float: left;
+}
+#under_header #nuvem2{
+	background:url(../Images/nuvem.png) no-repeat;
+	width: 327px;
+	height: 127px;
+	float:left;
+	margin-left: 68px;
+}
+#sol{
+	background:url(../Images/sol.png);
+	width: 185px;
+	height: 136px;
+	float:left;
+	margin-left: 53px;
+	
+}
+/* CONTEÚDO */
+#conteudo{
+	margin: 0 auto;
+    width: 960px;
+}
+#titulo{
+	font-size: 32px;
+	text-align:left;
+	margin-left: 70px;
+	font-weight: bold;
+	color: #333;
+}
+#under_title{
+	background:url(../Images/barra_cabecalho.png);
+	height: 4px;
+	width: 960px;
+}
+#caixa{
+	float:left;
+}
+#caixa_top{
+	background:url(../Images/caixa_top.png) no-repeat;
+	width:480px;
+	height:86px;
+	margin-top: 20px;
+}
+#caixa_center{
+	background: url(../Images/caixa_center.png) repeat-y;
+	width:480px;
+}
+#caixa_center p{
+	text-align: left;
+	font-size:20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #333;
+}
+#caixa_bottom{
+	background: url(../Images/caixa_bottom.png) no-repeat;
+	width:480px;
+	height: 86px;
+	margin-bottom: 30px;
+}
+
+#imagem1{
+	background: url(../Images/arte.png) no-repeat;
+	width: 321px;
+	height: 398px;
+	float:left;	
+	margin-left: 800px;
+	margin-top: 44px;
+	position: absolute;
+}
+
+#grama{
+	background:url(../Images/cartoon-37282_640.png) repeat-x center;
+	height: 52px;
+	width: 100%;
+}
+/*RODAPE*/
+
+#rodape{
+	background: url(../Images/background_footer.png) repeat-x center;
+	height: 220px;
+		
+}
+
