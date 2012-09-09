@@ -1,0 +1,25 @@
+#caixa_top{
+	background: url(../Images/background_menu_left_top.png) no-repeat;
+	width: 194px;
+	height: 60px;
+}
+#caixa_center{
+	background: url(../Images/background_center_menu_left.png) repeat-y;
+	width: 194px;
+}
+#caixa_bot{
+	background: url(../Images/background_menu_left_bottom.png) no-repeat;
+	width: 200px;
+	height: 60px;
+}
+#caixa_center a{
+	font-size: 20px;
+	color: #333;
+	
+}
+#caixa_center a:hover{
+	color: blue;
+}
+#caixa_center hr{
+	width: 150px;
+}

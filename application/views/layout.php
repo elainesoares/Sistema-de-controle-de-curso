@@ -4,8 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Projeto Diagnóstico Precoce</title>
 <link rel="stylesheet" href="assets/css/reset.css" type="text/css" />
-
 <link rel="stylesheet" type="text/css" href="assets/css/template.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/cadastrar.css" />
 </head>
 
 <body>
