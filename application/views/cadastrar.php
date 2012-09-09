@@ -5,8 +5,8 @@
         </div>
         <div id="content_cadastro">
         	<div id="menu_lateral">
-        		<div id="caixa_top"></div>
-        		<div id="caixa_center">
+        		<div id="caixa_t"></div>
+        		<div id="caixa_cent">
         			<ul>
         				<li><a href="">Professor </a></li>
         				<hr />
@@ -20,5 +20,11 @@
         			</ul>
         		</div>
         		<div id="caixa_bot"></div>
+        	</div>
+        	<div id="form_cadastro">
+        		<form>
+        			<p>Nome:</p>
+        			<input type="text"> </input>
+        		</form>
         	</div>
         </div>
