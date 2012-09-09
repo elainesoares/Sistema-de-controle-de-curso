@@ -1,11 +1,10 @@
 <?php
-class Home extends CI_Controller{
+class Pesquisar extends CI_Controller{
 	public function index()
 	{
-		$data["pagina"] = 'home';
+		$data["pagina"] = 'pesquisar';
 		$this->load->view("layout",$data);
 		
 	}
-
 }
 ?>

@@ -8,12 +8,8 @@ body{
 	text-align: center;
 	margin: 0 auto;
 	padding: 0 auto;
-	position: relative;
-	
 }
-#box{
-	
-}
+
 a{
 	text-decoration: none;
 }
@@ -23,7 +19,8 @@ a{
 /*CABEÇALHO*/
 #header{
 	background: url(../Images/background_menu.png) repeat-x scroll center top;
-	height: 109px;		
+	height: 109px;	
+		
 }
 #header_center{
 	margin: 0 auto;
@@ -141,9 +138,9 @@ a{
 	width: 321px;
 	height: 398px;
 	float:left;	
-	margin-left: 800px;
-	margin-top: 44px;
-	position: absolute;
+	margin-left: 90px;
+	margin-top: 60px;
+	margin-bottom: -100px;
 }
 
 #grama{
@@ -156,6 +153,56 @@ a{
 #rodape{
 	background: url(../Images/background_footer.png) repeat-x center;
 	height: 220px;
+	margin:0
 		
 }
-
+#rodape_conteudo{
+	margin:0 auto;
+	width: 960px;
+	
+	
+}
+/*MAPA DO SISTEMA NO RODAPÉ*/
+#left_mapa{
+	background: url(../Images/background_left_map_footer.png) no-repeat;
+	height: 188px;
+	width: 17px;
+	float:left;
+	margin-left: 150px;
+	margin-top:15px;
+}
+#center_mapa{
+	background: url(../Images/background_center_map_footer.png) repeat-x center;
+	height: 188px;
+	float:left;
+	margin-top:15px;
+}
+#center_mapa ul{
+	text-align: left;
+}
+#center_mapa li{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#center_mapa li a{
+	color: #fff;
+}
+#center_mapa li a:hover{
+	color: blue;
+}
+#right_mapa{
+	background: url(../Images/background_right_map_footer.png) no-repeat;
+	height:188px;
+	width: 17px;
+	float: left;
+	margin-top:15px;
+}
+#logo_infobits{
+	background: url(../Images/desenvolvido_por.png) no-repeat;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 189px;	
+}
