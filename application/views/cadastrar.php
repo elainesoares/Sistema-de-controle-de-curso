@@ -21,10 +21,13 @@
         		</div>
         		<div id="caixa_bot"></div>
         	</div>
-        	<div id="form_cadastro">
+        	<div id="form_cadastro" method="post" action="">
         		<form>
         			<p>Nome:</p>
-        			<input type="text"> </input>
+        			<input type="text" name="nome_cadastro_professor"> </input>
+        			<input type="radio" name="Masculino">Masculino </input>
+        			<input type="radio" name="Feminino">Feminino </input>
+        			<input type="submit" name="ENVIAR" value="Enviar"> </input>
         		</form>
         	</div>
         </div>
